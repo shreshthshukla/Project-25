@@ -16,8 +16,8 @@ class Paper{
         var pos = this.body.position
         push();
         translate(pos.x,pos.y);
-        ellipseMode(CENTER);
-        ellipse(0,0,50,50);
+        imageMode(CENTER);
+        image(this.image, 0, 0, 70, 70);
         pop();
     }
 }

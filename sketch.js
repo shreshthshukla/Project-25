@@ -23,8 +23,8 @@ function setup() {
 	paper1 = new Paper(160,390);
 	ground = new Ground(625,420,1250,20);
 	box1 = new Dustbin(730,360,20,100);
-	box2 = new Dustbin(990,360,20,100);
-	box3 = new Dustbin(860,400,240,20);
+	box2 = new Dustbin(950,360,20,100);
+	box3 = new Dustbin(840,400,200,20);
 
 
 
@@ -34,7 +34,7 @@ function setup() {
 
 function draw() {
 //   rectMode(CENTER);
-  background(0);
+  background("white");
 
  ground.display();
  paper1.display();
