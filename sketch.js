@@ -22,9 +22,9 @@ function setup() {
 
 	paper1 = new Paper(160,390);
 	ground = new Ground(625,420,1250,20);
-	box1 = new Dustbin(730,360,20,100);
-	box2 = new Dustbin(950,360,20,100);
-	box3 = new Dustbin(840,400,200,20);
+	box1 = new Dustbin(770,325,20,170);
+	box2 = new Dustbin(910,325,20,170);
+	box3 = new Dustbin(840,400,150,20);
 
 
 
@@ -41,6 +41,8 @@ function draw() {
  box1.display();
  box2.display();
  box3.display();
+ image(box3.image,840,400,150,20);
+
 // keypressed();
  drawSprites();
 //  text(mouseX+","+mouseY,200,200)
