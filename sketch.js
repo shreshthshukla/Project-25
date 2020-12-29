@@ -41,7 +41,7 @@ function draw() {
  box1.display();
  box2.display();
  box3.display();
- image(box3.image,840,400,150,20);
+ image(box3.image,840,330,180,190);
 
 // keypressed();
  drawSprites();
